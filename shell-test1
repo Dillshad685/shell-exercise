@@ -1,14 +1,13 @@
 #!/bin/bash
 
-DATE=$(date)
 
-START_TIME=$(DATE +%s)
+START_TIME=$(date +%s)
 
 sleep 20 
 
-END_TIME=$(DATE +%s)
+END_TIME=$(date +%s)
 
-TOTAL_TIME=$($START_TIME - $END_TIME)
+TOTAL_TIME=$((START_TIME - END_TIME))
 
 echo "execution time is : $TOTAL_TIME SEC"
 
