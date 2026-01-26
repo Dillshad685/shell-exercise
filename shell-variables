@@ -5,4 +5,4 @@ leaders=("Dilma" "Chinnu")
 
 echo "value of a: $a"
 
-echo "leaders: ${leaders[0]}"
+echo "leaders: ${leaders[@]}"
