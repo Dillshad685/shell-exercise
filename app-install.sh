@@ -13,6 +13,4 @@ if [ $? -ne 0 ]; then
     echo "installation failed"
 else
     echo "installation succeeded"
-
-
-
+fi
