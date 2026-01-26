@@ -6,3 +6,5 @@ leaders=("Dilma" "Chinnu")
 echo "value of a: $a"
 
 echo "leaders: ${leaders[@]}"
+
+
