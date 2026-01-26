@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 START_TIME=$(date +%s)
 
 sleep 20 
