@@ -1,8 +1,8 @@
 #!/bin/bash/
 
 a=20
-leaders=("Dilma","Chinnu")
+leaders=("Dilma" "Chinnu")
 
 echo "value of a: $a"
 
-echo "leaders: ${leaders [0] }"
+echo "leaders: ${leaders[0]}"
