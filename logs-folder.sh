@@ -8,3 +8,6 @@ mkdir -p $LOGS_FOLDER
 
 echo "folder name is $LOGS_FOLDER"
 
+echo "file name is $LOG_FILE"
+
+
