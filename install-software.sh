@@ -44,5 +44,5 @@ if [ $? -ne 0 ]; then
     dnf install python3 -y 
     VALIDATE $? "python"
 else
-    echo "$Y python already installed $N"
+    echo -e "$Y python already installed $N"
 fi 
