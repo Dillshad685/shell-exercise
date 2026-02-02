@@ -17,7 +17,7 @@ do
     fi
 done
 
-if [ $count -gt 2 ]; then
+if [ $count -eq 2 ]; then
     echo "$num is not a prime number"
 else
     echo "$num is a prime number"
