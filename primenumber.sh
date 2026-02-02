@@ -6,6 +6,7 @@ echo "entered number:$num"
 
 if [ $num -lt 1 ]; then
     echo "it is not a prime number"
+    exit 1
 fi
 
 count=0
