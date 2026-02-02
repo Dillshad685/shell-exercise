@@ -9,7 +9,7 @@ if [ $num -lt 1 ]; then
 fi
 
 count=0
-for ( i=1; i<=$num; i++ )
+for( i=1; i<=$num; i++ )
 do 
     if [ $(($num % i )) -eq 0 ];
         count=$(count +1)
