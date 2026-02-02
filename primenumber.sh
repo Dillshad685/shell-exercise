@@ -4,7 +4,7 @@ num=$1
 
 echo "entered number:$num"
 
-if [ $num -lt 1 ]; then
+if [ $num -le 1 ]; then
     echo "it is not a prime number"
     exit 1
 fi
@@ -18,7 +18,7 @@ do
 done
 
 if [ $count -eq 2 ]; then
-    echo "$num is not a prime number"
+    echo "$num is  a prime number"
 else
-    echo "$num is a prime number"
+    echo "$num is not a prime number"
 fi
