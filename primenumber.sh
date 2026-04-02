@@ -22,3 +22,6 @@ if [ $count -eq 2 ]; then
 else
     echo "$num is not a prime number"
 fi
+
+
+
