@@ -2,9 +2,9 @@
 
 num=$1
 
-echo "enter number: $num"
+echo "entered number: $num"
 
-if [ ($num % 2) -eq 0 ]; 
+if [ ($num % 2) -eq 0 ]; then
     echo "Entered number $num is even"
 else
     echo "$num is odd"
